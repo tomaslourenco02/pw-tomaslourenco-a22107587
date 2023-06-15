@@ -44,12 +44,12 @@ header{ /* barra */
 }
 
 header a{ 
-  color: #5f7d9c;
+  color: #d7b684;
 }
 
 footer{
   position: relative;
-  background: #5f7d9c;
+  background: #d7b684;
   color: white;
 }
 
@@ -65,7 +65,7 @@ footer a img{
 }
 
                                                                     /* Home */
-                                                                    
+
 /* Menu */
 
 .inicio p{
@@ -76,13 +76,13 @@ footer a img{
   font-family: arial;
   font-weight: bold;
   font-size: 40px;
-  color: #5f7d9c;
+  color: #d7b684;
 }
 .inicio p:nth-child(2){
   font-family: arial;
   font-size: 40px;
   font-weight: bold;
-  color: #5f7d9c;
+  color: #d7b684;
 }
 .inicio p:nth-child(3){
   font-size: 30px;
@@ -120,11 +120,11 @@ section p{
 }
 
 section p a{
-  padding: 10px; 
+  padding: 10px;
 }
 
 header .botao_cv a{
-  background: #5f7d9c;
+  background: #d7b684;
   padding: 10px 30px;
   border-radius: 5px 40px 40px 40px;
   text-decoration: none;
@@ -133,7 +133,7 @@ header .botao_cv a{
 }
 
 header .login a{
-  background: #5f7d9c;
+  background: #d7b684;
   padding: 10px 30px;
   border-radius: 40px 40px 40px 40px;
   text-decoration: none;
@@ -146,7 +146,7 @@ header .login a{
   padding: 10px 30px;
   border-radius: 40px 40px 40px 40px;
   text-decoration: none;
-  color:#5f7d9c;
+  color:#d7b684;
   font-size: 20px;
 }
 
@@ -325,7 +325,7 @@ font-size: 18px;
   margin: 5px auto;
   width: 400px;   height: auto;
   padding: 25px;
-  background-color: white;  
+  background-color: white;
   border-radius: 10px; /* arredonda os cantos */
   box-shadow: 5px 5px 15px grey;
 }
@@ -338,7 +338,7 @@ font-size: 18px;
   margin: 5px auto;
   width: 400px;   height: auto;
   padding: 25px;
-  background-color: white;  
+  background-color: white;
   border-radius: 10px; /* arredonda os cantos */
   box-shadow: 5px 5px 15px grey;
 }
@@ -357,7 +357,7 @@ background-position: center;
   margin: 5px auto;
   width: 400px;   height: auto;
   padding: 25px;
-  background-color: white;  
+  background-color: white;
   border-radius: 10px; /* arredonda os cantos */
   box-shadow: 5px 5px 15px grey;
 }
@@ -374,7 +374,7 @@ background-position: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 25px 100px; 
+  padding: 25px 100px;
   text-align: center;
   font-size: 19px;
   background-image: url("../images/code.jpeg");
@@ -392,7 +392,7 @@ background-position: center;
   float: left;
   width: 400px;   height: auto;
   padding: 25px;  margin: 10px;
-  background-color: white;  
+  background-color: white;
   border-radius: 10px; /* arredonda os cantos */
   box-shadow: 5px 5px 15px grey;
 }
@@ -453,7 +453,7 @@ background-position: center;
  justify-content: center;
  width: 100%;
 }
-                                                                     
+
 .web_tec div{
  width: 25%;   height: auto;
  padding: 25px;  margin: 10px;
@@ -486,7 +486,7 @@ background-image: url("../images/news_background.jpeg");
   justify-content: center;
   width: 100%;
  }
-                                                                      
+
  .web_noticia div{
   text-align: center;
   min-width: 35%;   min-height: auto;
@@ -495,9 +495,9 @@ background-image: url("../images/news_background.jpeg");
   background-color: white;
   border-radius: 10px; /* arredonda os cantos */
   box-shadow: 5px 5px 15px grey;
- } 
+ }
 
-/* Laboratórios */      
+/* Laboratórios */
 
 .webs .web_lab{
   background-image: url("../images/labs_background.jpeg");
@@ -512,7 +512,7 @@ background-image: url("../images/news_background.jpeg");
   justify-content: center;
   width: 100%;
  }
-                                                                      
+
  .web_lab div{
   width: 25%;   min-height: 250px;
   padding: 25px;  margin: 10px;
@@ -522,7 +522,7 @@ background-image: url("../images/news_background.jpeg");
   box-shadow: 5px 5px 15px grey;
  }
 
- /* Quizz */      
+ /* Quizz */
 
 .web_quizz{
   background-image: url("../images/quizz_background.jpeg");
@@ -545,7 +545,7 @@ background-image: url("../images/news_background.jpeg");
   position: absolute;
   top: 5px;
   right: 5px;
-  background-color: #5f7d9c;
+  background-color: #d7b684;
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
@@ -570,7 +570,7 @@ background-image: url("../images/news_background.jpeg");
 .new-btn{
   display: block;
   margin: 20px auto;
-  background-color: #5f7d9c;
+  background-color: #d7b684;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;

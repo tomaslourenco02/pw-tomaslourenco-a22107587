@@ -1,5 +1,7 @@
 <!-- web.html -->
 
+
+
 {% extends 'portfolio/layout.html' %}
 {% load static %}
 {% block link %}
@@ -19,19 +21,6 @@
                     <br>
                     <p><b>Criador: </b>{{tec.criador}}</p>
                     <p><b>Ano de criação: </b>{{tec.ano}}</p>
-                </div>
-            {% endfor %}
-        </div>
-
-        <h2 class="titulo_seccao">Notícias</h2>
-        <div class="web_noticia">
-            {% for noticia in noticias %}
-                <div>
-                    <h3>{{noticia.titulo}}</h3>
-                    <br>
-                    <button><a href="{{noticia.link}}"><img src="{{noticia.imagem.url}}" width="300"></a></button>
-                    <br><br>
-                    <p>{{noticia.texto}}</p>
                 </div>
             {% endfor %}
         </div>
@@ -63,11 +52,6 @@
                 </div>
             {% endfor %}
         </div>
-        <h2 class="titulo_seccao">Diagrama DER</h2>
-        <div class="drawio">
-            {% load static %}
-                <img src="{% static 'portfolio/images/web.drawio.png' %}" width="750">
-        </div>
 
     </div>
     <div class="web_quizz">
@@ -76,18 +60,15 @@
             {% csrf_token %}
             <fieldset title="info">
                 <Legend>Identificação</Legend>
-                    <label><b>Nome:</b><input type="text" name="nome" id="nome" multiple required placeholder="Escreva aqui" size="25"></label><br>
-                    <label><b>Apelido:</b><input type="text" name="apelido" id="apelido" required placeholder="Escreva aqui"></label><br>
+                    <label><b>O seu nome:</b><input type="text" name="nome" id="nome" multiple required placeholder="Escreva aqui" size="25"></label><br>
+                    <label><b>O seu apelido:</b><input type="text" name="apelido" id="apelido" required placeholder="Escreva aqui"></label><br>
             </fieldset><br>
             <fieldset title="perguntas">
-                <label>Qual a linguagem mais utilizada com o Python?</label>
-                <input type="text" name = "Django" id = "Django" size="20"><br><br>
-
                 <label>Qual a extenção responsável por estilizar o HTML?</label>
                 <input type="text" name = "CSS" id = "CSS" size="20"><br><br>
 
-                <label>Qual o servidor responsável para hospedar este portfolio?</label>
-                <input type="text" name = "Heroku" id = "Heroku" size="20"><br><br>
+                <label>Qual a linguagem mais utilizada com o Python?</label>
+                <input type="text" name = "Django" id = "Django" size="20"><br><br>
 
                 <label>Quem criou a linguagem JavaScript?</label>
                 <input type="text" name = "Brendan Eich" id = "Brendan Eich" size="20"><br><br>
@@ -95,6 +76,6 @@
             </fieldset>
         </form>
         {% load static %} 
-        <img src="{% static 'portfolio/images/grafico.png' %}">
+        <img src="{% static 'portfolio/images/graficoBOM.png' %}">
     </div>
 {% endblock %}

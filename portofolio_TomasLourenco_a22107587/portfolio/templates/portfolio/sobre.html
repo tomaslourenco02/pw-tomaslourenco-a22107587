@@ -28,6 +28,7 @@
     <div class="licenciatura">
             {% for chair in chairs %}
                     <div>
+
                         <h3><u><a href="{{chair.link_cadeira}}" class="titulo">{{chair.nome}}</a></u></h3>
                         <p><b>ECTS: </b>{{chair.ects}}</p>
                         <p><b>Ano: </b>{{chair.ano}}</p>
@@ -46,30 +47,22 @@
             {% endfor %}
     </div>
 
-    <h1 class="titulo_seccao">Competências</h1>
-    <br>
-        <div class="competencias">
-            <p>O curso de licenciatura em Engenharia Informática da Universidade Lusófona desenvolve
-            perfis com fortes competências tecnológicas e humanas, de forma a potênciar aos seus
-            licenciados um elevado grau de empregabilidade, ou o prosseguimento dos estudos de 2º ciclo 
-            com excelentes perspectivas de sucesso.</p>
-        </div>
-    <br>
     <h1 class="titulo_seccao">Línguas</h1>
     <div class="linguas1">
-        <div class="linguas"> <p><b>Inglês - Língua Nativa</b></p> </div>
-        <div class="linguas"> <p><b>Português - B-Preliminary</b></p> </div>
-        <div class="linguas"> <p><b>Espanhol - Nível Básico</b></p> </div>
+        <div class="linguas"> <p><b>Português - 100%</b></p> </div>
+        <div class="linguas"> <p><b>Inglês - 95%</b></p> </div>
+        <div class="linguas"> <p><b>Espanhol - 35%</b></p> </div>
+        <div class="linguas"> <p><b>Francês - 20%</b></p> </div>
     </div>
     <div class="hobbies">
         <h1 class="titulo_seccao">Hobbies</h1>
-        <div class="desportos"> <p><b>Padel</b></p>
+        <div class="desportos"> <p><b>Convívio</b></p>
         {% load static %}
-            <img src="{% static 'portfolio/images/padel.png' %}" width="200">
+            <img src="{% static 'portfolio/images/convivio.jpeg' %}" width="200">
         </div>
-        <div class="desportos"> <p><b>Voluntariado - Gestor de Turno</b></p>
+        <div class="desportos"> <p><b>Basquetebol</b></p>
         {% load static %}
-            <img src="{% static 'portfolio/images/refood.jpeg' %}" width="200">
+            <img src="{% static 'portfolio/images/basketjpg.jpg' %}" width="200">
         </div>
     </div>
 {% endblock %}
